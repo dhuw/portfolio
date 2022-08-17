@@ -330,3 +330,11 @@ li a {
 }
 
 /* resaume page speciific css */
+    #resume-contact {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .socialicons {
+        color: var(--dark-purple);
+    }

@@ -1,0 +1,23 @@
+/* resaume page speciific css */
+#resume-contact {
+    text-align: center;
+    padding: 10px;
+}
+
+.socialicons {
+    color: var(--dark-purple);
+}
+
+.resume-text {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 2; 
+}
