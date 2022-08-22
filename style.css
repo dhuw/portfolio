@@ -138,11 +138,11 @@ li a {
     box-shadow: -15px 7px 30px rgba(67, 3, 128, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(./assets2/ascdemoproject.PNG);
+    background-image: url(./assets2/img/mdproject.PNG);
     background-size: cover;
     background-position: center;
 }
-
+/* code quiz */
 .grid-project {
     width: 400px;
     height: 400px;
@@ -151,7 +151,7 @@ li a {
     box-shadow: -15px 7px 30px rgba(67, 3, 128, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(./assets2/victory.PNG);
+    background-image: url(./assets2/img/h4gamedesktop.PNG);
     background-size: cover;
     background-position: center;
 }
@@ -164,7 +164,7 @@ li a {
     box-shadow: -15px 7px 30px rgba(67, 3, 128, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(./assets2/Capture.PNG);
+    background-image: url(./assets2/img/wdhomework.PNG);
     background-size: cover;
     background-position: center;
 }
@@ -222,7 +222,7 @@ li a {
 .about-img {
     height: 500px;
     width: 500px;
-    background-image: url(./assets2/myAvatar.png);
+    background-image: url(./assets2/img/myAvatar.png);
     background-size: cover;
     background-position: center;
     float: left;
@@ -233,8 +233,14 @@ li a {
     height: auto;
     width: 40%;
     font-size: 1.5rem;
-    margin-left: 100px;
-    float: right;
+    /* margin-left: 100px; */
+    float: center;
+    
+}
+
+#bio {
+    padding-top: 5%;
+    margin-right: 20%;
 }
 
 .socialicons {
