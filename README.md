@@ -15,4 +15,4 @@ I used HTML/CSS to create a basic, yet functional and modern portfolio that disp
 
 ## Link to page
 
-https://dhuw.github.io/porfolio/
+https://dhuw.github.io/portfolio/
