@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --purple-text: #e786ff;
+  --dark-purple: #43008f;
+  --mid-purple: #b13bff;
+}
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* /* resume specific css * */
+
+h1 {
+  color: var(--purple-text);
+}
+
+ol {
+  list-style: none;
+}
+
+li {
+  font-size: 18px;
+  padding-left: 10px;
+}
+ 
+#contact {
+  /* background-color: var(--mid-purple); */
+ text-align: center;
+ text-transform: uppercase;
+ height: 100vh;
+}
+
+#cheading {
+  padding-top: 20%;
+  text-transform: uppercase;
+}
+
+
+
+/* mobile */
+@media(max-width: 768px) {
+  nav {
+      display: none;
+      visibility: hidden;
+  }
+  #mobile-nav {
+      display: block;
+  }
+  .mobile-navbar {
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+      z-index: 5;
+  }
+  ul {
+      background-color: rgba(0, 0, 0, 0.625);
+  }
+  .asc-project {
+      width: 270px;
+      height: 500px;
+      background: #fff;
+      position: relative;
+      box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      margin: 50px;
+      background-image: url(./assets2/ascdemoproject.PNG);
+      background-size: cover;
+      background-position: center;
+  }
+  .grid-project {
+      width: 250px;
+      height: 400px;
+      background: #fff;
+      position: relative;
+      box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      margin: 50px;
+      background-image: url(./assets2/victory.PNG);
+      background-size: cover;
+      background-position: center;
+  }
+  .hw-project {
+      width: 250px;
+      height: 400px;
+      background: #fff;
+      position: relative;
+      box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      margin: 50px;
+      background-image: url(./assets2/Capture.PNG);
+      background-size: cover;
+      background-position: center;
+  }
+  .about-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f8f8f8;
+      box-shadow: 15px 7px 30px 7px rgba(0, 0, 0, 0.2);
+  }
+  .about-img {
+      margin-top: 20px;
+      height: 300px;
+      width: 225px;
+      background-image: url(./assets2/myAvatar.png);
+      background-size: cover;
+      background-position: center;
+  }
+  .about-text {
+      margin-left: 20px;
+      width: 100%;
+      font-size: .75rem;
+  }
+  .socialicons i {
+      font-size: 2rem;
+      padding: 10px;
+      margin-left: -10px;
+  }
+}
