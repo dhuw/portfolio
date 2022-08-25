@@ -40,6 +40,11 @@ li {
   text-transform: uppercase;
 }
 
+#link:hover {
+  border-bottom: 5px solid #e786ff;
+}
+
+
 
 
 /* mobile */
